@@ -7,6 +7,11 @@ A simple Python script to find and list duplicate files in a folder based on the
 - Detects duplicates even if the filenames or extensions are different.  
 - Clearly lists duplicate files with their full paths.
 
+## Requirements  
+- Python 3.x  
+- Works on Windows, macOS, and Linux  
+- No external dependencies (only uses built-in Python modules)
+
 ## How To Use  
 1. Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
 2. Clone the repository  
