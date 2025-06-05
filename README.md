@@ -21,3 +21,19 @@ cd file-duplicate-detector
 ```bash
 python file_duplicate_detector.py
 ```
+
+## Setup
+When prompted, enter the folder path you want to scan for duplicate files.
+
+Example input:
+```bash
+Enter folder path to scan: C:\Users\YourName\Documents
+```
+
+## Example Output
+Output example if duplicates found:
+```bash
+Duplicate files found:
+C:\Users\YourName\Documents\file1.txt <==> C:\Users\YourName\Documents\backup\file1_copy.txt
+C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_backup.jpg
+```
