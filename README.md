@@ -1,6 +1,9 @@
 # File Duplicate Detector
 A simple Python script to find and list duplicate files in a folder based on their content hash (MD5). Helps you clean up storage by identifying exact duplicate files.
 
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macOS%20%7C%20linux-lightgrey)
+
 ## Features  
 - Recursively scans the selected folder and its subdirectories.  
 - Uses MD5 hashing to compare the content of files.  
@@ -41,6 +44,13 @@ Output example if duplicates found:
 Duplicate files found:
 C:\Users\YourName\Documents\file1.txt <==> C:\Users\YourName\Documents\backup\file1_copy.txt
 C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_backup.jpg
+```
+
+## Folder Structure
+```plaintext
+duplicate-file-finder/
+├── main.py
+└── README.md
 ```
 
 ## Contributing
