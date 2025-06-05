@@ -37,3 +37,9 @@ Duplicate files found:
 C:\Users\YourName\Documents\file1.txt <==> C:\Users\YourName\Documents\backup\file1_copy.txt
 C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_backup.jpg
 ```
+
+## Contributing
+Feel free to open issues or submit pull requests to improve this project.
+
+## License
+This project is open-source and free to use.
