@@ -30,17 +30,17 @@ cd file-duplicate-detector
 python file_duplicate_detector.py
 ```
 
-## Setup
-When prompted, enter the folder path you want to scan for duplicate files.
+## How It Works
+The script will prompt you to input the path to the folder you want to scan, then it will:
+- Traverse all subdirectories
+- Calculate MD5 hash for each file
+- Group files with identical hashes
+- Print out pairs or groups of duplicate files
 
-Example input:
+🖥️ Example:
 ```bash
 Enter folder path to scan: C:\Users\YourName\Documents
-```
 
-## Example Output
-Output example if duplicates found:
-```bash
 Duplicate files found:
 C:\Users\YourName\Documents\file1.txt <==> C:\Users\YourName\Documents\backup\file1_copy.txt
 C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_backup.jpg
