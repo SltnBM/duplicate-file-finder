@@ -49,7 +49,8 @@ C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_back
 ```plaintext
 📂 duplicate-file-finder/
 ├── 🐍 main.py
-└── 📄 README.md
+├── 📄 README.md
+└── 📜 LICENSE
 ```
 
 ## 🤝 Contributing
@@ -58,5 +59,5 @@ Feel free to open issues or submit pull requests to improve this project.
 ## 📬 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
 
-## 📄 License
+## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
