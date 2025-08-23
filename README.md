@@ -8,11 +8,10 @@ A simple Python script to find and list duplicate files in a folder based on the
 - 📁 Recursively scans the selected folder and its subdirectories.  
 - 🔐 Uses MD5 hashing to compare the content of files.  
 - 🧭 Detects duplicates even if the filenames or extensions are different.  
--  📄 Clearly lists duplicate files with their full paths.
+- 📄 Clearly lists duplicate files with their full paths.
 
 ## 📋 Requirements  
 - 🐍 Python 3.x  
-- 💻 Works on Windows, macOS, and Linux  
 - ✅ No external dependencies (only uses built-in Python modules)
 
 ## 🚀 How To Use  
