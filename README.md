@@ -1,4 +1,4 @@
-# 🗂️ Duplicate File Finder 🔍 
+# 🗂️🔍 Duplicate File Finder 
 A simple Python script to find and list duplicate files in a folder based on their content hash (MD5). Helps you clean up storage by identifying exact duplicate files.
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
