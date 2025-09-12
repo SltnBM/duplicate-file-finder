@@ -15,16 +15,16 @@ A simple Python script to find and list duplicate files in a folder based on the
 - ✅ No external dependencies (only uses built-in Python modules)
 
 ## 🚀 How To Use  
-1. Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
-2. Clone the repository  
+1. 🐍 Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
+2. 📥 Clone the repository  
 ```bash
 git clone https://github.com/SltnBM/duplicate-file-finder.git
 ```
-3. Navigate to the project directory
+3. 📂 Navigate to the project directory
 ```bash
 cd duplicate-file-finder
 ```
-4. Run the script using terminal or command prompt
+4. ▶️ Run the script using terminal or command prompt
 ```bash
 python main.py
 ```
