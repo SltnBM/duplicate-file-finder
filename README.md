@@ -1,4 +1,4 @@
-# 🗂️🔍 Duplicate File Finder 
+# 🗂️ Duplicate File Finder 
 A simple Python script to find and list duplicate files in a folder based on their content hash (MD5). Helps you clean up storage by identifying exact duplicate files.
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
@@ -7,30 +7,30 @@ A simple Python script to find and list duplicate files in a folder based on the
 ---
 
 ## ✨ Features  
-- 📁 Recursively scans the selected folder and its subdirectories.  
-- 🔐 Uses MD5 hashing to compare the content of files.  
-- 🧭 Detects duplicates even if the filenames or extensions are different.  
-- 📄 Clearly lists duplicate files with their full paths.
+- Recursively scans the selected folder and its subdirectories.  
+- Uses MD5 hashing to compare the content of files.  
+- Detects duplicates even if the filenames or extensions are different.  
+- Clearly lists duplicate files with their full paths.
 
 ---
 
 ## 📋 Requirements  
-- 🐍 Python 3.x  
-- ✅ No external dependencies (only uses built-in Python modules)
+- Python 3.x  
+- No external dependencies (only uses built-in Python modules)
 
 ---
 
 ## 🚀 How To Use  
-1. 🐍 Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
-2. 📥 Clone the repository  
+1. Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
+2. Clone the repository  
 ```bash
 git clone https://github.com/SltnBM/duplicate-file-finder.git
 ```
-3. 📂 Navigate to the project directory
+3. Navigate to the project directory
 ```bash
 cd duplicate-file-finder
 ```
-4. ▶️ Run the script using terminal or command prompt
+4. Run the script using terminal or command prompt
 ```bash
 python main.py
 ```
@@ -58,9 +58,9 @@ C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_back
 ## 📁 Folder Structure
 ```plaintext
 📂 duplicate-file-finder/
-├── 🐍 main.py
-├── 📄 README.md
-└── 📜 LICENSE
+├── main.py
+├── README.md
+└── LICENSE
 ```
 
 ---
