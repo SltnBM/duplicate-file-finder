@@ -1,4 +1,4 @@
-# 🗂️ Duplicate File Finder 
+# Duplicate File Finder 
 A simple Python script to find and list duplicate files in a folder based on their content hash (MD5). Helps you clean up storage by identifying exact duplicate files.
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
@@ -6,7 +6,7 @@ A simple Python script to find and list duplicate files in a folder based on the
 
 ---
 
-## ✨ Features  
+## Features  
 - Recursively scans the selected folder and its subdirectories.  
 - Uses MD5 hashing to compare the content of files.  
 - Detects duplicates even if the filenames or extensions are different.  
@@ -14,13 +14,13 @@ A simple Python script to find and list duplicate files in a folder based on the
 
 ---
 
-## 📋 Requirements  
+## Requirements  
 - Python 3.x  
 - No external dependencies (only uses built-in Python modules)
 
 ---
 
-## 🚀 How To Use  
+## How To Use  
 1. Make sure you have Python installed (Python 3 recommended). Download it from [python.org](https://www.python.org/downloads/).  
 2. Clone the repository  
 ```bash
@@ -37,14 +37,14 @@ python main.py
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 The script will prompt you to input the path to the folder you want to scan, then it will:
 - Traverse all subdirectories
 - Calculate MD5 hash for each file
 - Group files with identical hashes
 - Print out pairs or groups of duplicate files
 
-🖥️ Example:
+Example:
 ```bash
 Enter folder path to scan: C:\Users\YourName\Documents
 
@@ -55,9 +55,9 @@ C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_back
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```plaintext
-📂 duplicate-file-finder/
+duplicate-file-finder/
 ├── main.py
 ├── README.md
 └── LICENSE
@@ -65,15 +65,15 @@ C:\Users\YourName\Documents\image.jpg <==> C:\Users\YourName\Pictures\image_back
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Feel free to open issues or submit pull requests to improve this project.
 
 ---
 
-## 📬 Connect With Me
+## Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sultan%20Badra-blue?logo=linkedin\&logoColor=white\&style=flat-square)](https://www.linkedin.com/in/sultan-badra)
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
